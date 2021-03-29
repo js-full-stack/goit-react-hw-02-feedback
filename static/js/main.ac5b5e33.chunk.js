@@ -1,0 +1,2 @@
+(this["webpackJsonpgoit-react-hw-02-feedback"]=this["webpackJsonpgoit-react-hw-02-feedback"]||[]).push([[0],{9:function(e,c,t){"use strict";t.r(c);var r=t(1),a=t.n(r),n=t(3),s=t.n(n),d=t(0);var i=function(){return Object(d.jsx)("div",{className:"App",children:Object(d.jsx)("header",{className:"App-header",children:Object(d.jsx)("h1",{children:"Feedback"})})})};s.a.render(Object(d.jsx)(a.a.StrictMode,{children:Object(d.jsx)(i,{})}),document.getElementById("root"))}},[[9,1,2]]]);
+//# sourceMappingURL=main.ac5b5e33.chunk.js.map
