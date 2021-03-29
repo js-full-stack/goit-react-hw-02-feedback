@@ -5,8 +5,6 @@ function App() {
         <h1>Feedback</h1>
       </header>
     </div>
-    <div></div>
-    <div></div>
   );
 }
 
