@@ -1,0 +1,25 @@
+.feedback__section {
+  outline: 1px solid gray;
+}
+
+.feedback__label {
+  font-size: 20px;
+  text-align: center;
+}
+
+.feedback__list {
+  display: flex;
+  justify-content: center;
+}
+
+.feedback__item:not(:last-child) {
+  margin-right: 20px;
+}
+
+.feedback__button {
+  width: 70px;
+  height: 30px;
+  border: 1px solid gray;
+  outline: none;
+  background: transparent;
+}

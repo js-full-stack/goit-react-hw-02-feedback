@@ -1,9 +1,9 @@
+import Feedback from './Components/Feedback';
+
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <h1>Feedback</h1>
-      </header>
+      <Feedback />
     </div>
   );
 }
