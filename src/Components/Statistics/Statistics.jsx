@@ -1,5 +1,7 @@
 import './Statistics.scss';
 import propTypes from 'prop-types';
+import Notification from './Notification';
+
 const Statistics = ({ good, neutral, bad, total, positivePercentage }) =>
   total > 0 ? (
     <ul className="statistics__list">
@@ -35,7 +37,9 @@ const Statistics = ({ good, neutral, bad, total, positivePercentage }) =>
         </li>
       </div>
     </ul>
-  ) : null;
+  ) : (
+    <Notification message="No feedback given" />
+  );
 
 Statistics.propTypes = {
   good: propTypes.number.isRequired,
