@@ -1,0 +1,13 @@
+.feedback__list {
+  display: flex;
+}
+
+.feedback__item:not(:last-child) {
+  margin-right: 15px;
+}
+
+.feedback__button {
+  text-decoration: none;
+  padding: 15px;
+  width: 80px;
+}
